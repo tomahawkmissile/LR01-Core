@@ -4,7 +4,7 @@ Core controller of the LR-01 hybrid drone. Controls rotors, critical cooling, an
 Aircraft specifications will be posted in another repository.
 ***Note: these files are about 85% complete.***
 
-**DRAM routing is not finished. I will upload a fix when I have time.**
+**DRAM routing and PDN routing is not finished. I will upload a fix when I have time.**
 
 Features:
 - TI AM3354 Arm Cortex-A8
