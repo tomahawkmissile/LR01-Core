@@ -17,4 +17,4 @@ Features:
 - 12 layer PCB
 
 
-**This board is not guaranteed to work!**
+**This board will not work as it is!**
