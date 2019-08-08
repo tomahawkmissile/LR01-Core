@@ -1,5 +1,5 @@
 # LR01-Core
-Core controller of the LR-01 hybrid drone. Controls rotors, critical cooling, and battery charge/discharge controllers.
+Core controller of the LR-01 hybrid drone. Controls rotors, critical cooling, battery charge/discharge controllers and realtime sensors.
 
 Aircraft specifications will be posted in another repository.
 ***Note: these files are about 85% complete.***
