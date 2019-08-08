@@ -1,0 +1,59 @@
+**This file contains information about the design files contained here.**
+
+***Further modification needed***
+
+**All units are metric.**
+
+> Board materials + specifications
+---> Laminate				FR4
+---> Layer count			10
+---> Total thickness			1.9mm (Can be rounded to 2.0mm if needed. See note in layer stack section.)
+---> Length				97.79mm
+---> Width				82.55mm
+---> Finish type			HASL
+---> Copper weight			35 micrometers for all layers
+---> Soldermask color			Matte black
+---> Silkscreen location		Both sides (top and bottom)
+---> Silkscreen color			White
+---> Silkscreen type			LPI
+---> Impedance matching			10% tolerance
+---> Stacked microvias			No
+---> Blind vias				No
+---> Buried vias			No
+---> Minimum drill diameter		0.15mm
+---> Minimum annular ring thickness	0.1mm (adding 0.2mm to the vias diameter)
+---> Smallest trace width		0.1016mm
+---> Smallest spacing			0.0762mm
+---> Via in pad				Yes
+---> Via plug				None
+---> Stencil				Top and bottom (separate)
+
+
+
+> Specific layer stack
+---> Copper layer 1			0.035mm
+---> Prepreg 1				0.1mm
+---> Copper layer 2			0.035mm
+---> Core 1				0.22mm
+---> Copper layer 3			0.035mm
+---> Prepreg 2				0.25mm
+---> Copper layer 4			0.035mm
+---> Core 2				0.15mm
+---> Copper layer 5			0.035mm
+---> Prepreg 3				0.2mm
+---> Copper layer 6			0.035mm
+---> Core 3				0.15mm
+---> Copper layer 7			0.035mm
+---> Prepreg 4				0.25mm
+---> Copper layer 8			0.035mm
+---> Core 4				0.22mm
+---> Copper layer 9			0.035mm
+---> Prepreg 5				0.1mm
+---> Copper layer 10			0.035mm
+
+---> Total				1.9mm
+
+>Impedance control stack
+---> 50 Ohms between copper layer 1-2, 2-3, 7-8, and 8-9.
+
+***If rounding to 2.0mm is needed, round the Prepreg 3 layer to 0.3mm.***
